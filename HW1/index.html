@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lilita+One"
+      rel="stylesheet"
+    />
+    <title>Лісова тема</title>
+    <style>
+      body {
+        background-image: url(https://fastly.picsum.photos/id/855/5000/3333.jpg?hmac=plFPjVKm__JX994YSgieXxj7LBnlggL0Qd3DGQcfv5E);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #4eb0f6;
+        overflow: hidden;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        float: left;
+        margin-right: 10px;
+      }
+
+      nav li a {
+        display: block;
+        color: #333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a {
+        font-family: "Lilita One", cursive;
+      }
+
+      nav li a:hover {
+        background-color: #ddd;
+        color: #333;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      article {
+        background-repeat: no-repeat;
+        background-color: #f1f1f1;
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      article {
+        background-image: url(https://fastly.picsum.photos/id/468/5000/3337.jpg?hmac=IgAxC9sPpoeSFpPy7JyzQ1iHLTRXwszqQ0q4ixPnyY4);
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-top: 0;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cursor homework</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <article>
+        <h1>Основні GIT команди</h1>
+        <p>
+          Перед тим, як ви почнете це керівництво, вам знадобиться таке: GIT
+          встановлений на вашій системі
+        </p>
+      </article>
+
+      <article>
+        <h1>Basic command</h1>
+        <ul>
+          <li>
+            git config --global user.name blabla - ця команда встановлює ім'я
+            користувача для Git, яке використовується для авторства комітів.
+          </li>
+          <li>
+            git config --global user.email blabal@bla - ця команда встановлює
+            email користувача для Git, яке використовується для авторства
+            комітів.
+          </li>
+          <li>
+            git init - ця команда створює новий Git репозиторій в поточній
+            директорії.
+          </li>
+          <li>
+            git status - ця команда показує поточний стан робочого каталогу,
+            включаючи незбережені зміни.
+          </li>
+          <li>
+            git add - ця команда додає зміни з робочого каталогу в індекс
+            (stage) Git, готуючи їх для коміту.
+          </li>
+          <li>
+            git commit - ця команда створює новий коміт зі змінами зі стадії і
+            додає його до локального репозиторію Git.
+          </li>
+          <li>
+            git log - ця команда показує список всіх комітів, здійснених в
+            локальному репозиторії Git.
+          </li>
+          <li>
+            git checkout - ця команда переключає гілку або відновлює файли в
+            робочому каталозі до стану, що відповідає певному коміту.
+          </li>
+          <li>
+            git branch - ця команда показує список гілок в локальному
+            репозиторії Git або створює нову гілку.
+          </li>
+          <li>
+            git push - ця команда завантажує зміни з локального репозиторію Git
+            до віддаленого репозиторію.
+          </li>
+          <li>
+            git pull - ця команда оновлює локальний репозиторій Git на основі
+            змін у віддаленому репозиторії.
+          </li>
+          <li>
+            git merge - ця команда об'єднує зміни з двох або більше гілок в
+            локальному репозиторії Git.
+          </li>
+          <li>
+            git clone - ця команда створює копію віддаленого репозиторію Git в
+            локальній директорії.
+          </li>
+        </ul>
+        <h1>Advanced command</h1>
+        <ul>
+          <li>
+            git revert - ця команда створює новий коміт, який відміняє зміни,
+            зроблені в певному коміті або діапазоні комітів, без видалення
+            самого коміту.
+          </li>
+          <li>
+            git reset - ця команда використовується для скидання гілки до
+            певного коміту, видаляючи зміни, зроблені після цього коміту.
+          </li>
+          <li>
+            git rebase - ця команда дозволяє перебудувати гілкову історію змін,
+            застосовуючи зміни з однієї гілки до іншої, зберігаючи порядок змін.
+          </li>
+          <li>
+            git cherry-pick - ця команда дозволяє вибрати один або кілька
+            комітів з історії розробки і застосувати їх до поточної гілки.
+          </li>
+          <li>
+            git stash - ця команда дозволяє тимчасово зберегти зміни в робочому
+            каталозі без коміту, щоб можна було переключитися на іншу гілку або
+            робочу директорію без втрати змін.
+          </li>
+        </ul>
+        <p>
+          .gitignore - це текстовий файл, який містить список файлів або
+          каталогів, які Git повинен ігнорувати при виконанні команд.
+        </p>
+        <p>
+          Коли ви виконуєте команди, такі як git add або git commit, Git додає
+          до історії змін усі файли в робочій директорії за замовчуванням.
+          Однак, іноді ви хочете зберегти деякі файли, щоб вони були доступні в
+          робочій директорії, але не додавались до історії змін. Наприклад, це
+          можуть бути файли, що містять конфіденційну інформацію або великі
+          файли, які не повинні зберігатися в репозиторії.
+        </p>
+        <p>
+          Файл .gitignore дозволяє вам вказати, які файли та каталоги Git
+          повинен ігнорувати.
+        </p>
+      </article>
+    </section>
+  </body>
+</html>
