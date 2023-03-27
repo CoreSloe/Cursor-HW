@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  max-width: 1440px;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.section_box1 {
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  background: #ed4c5c;
+}
+
+.section1_article1 {
+  display: inline-block;
+}
+
+h1 {
+  position: absolute;
+  width: 445px;
+  height: 107px;
+  left: 165px;
+  top: 122px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.p1 {
+  position: absolute;
+  width: 445px;
+  height: 64px;
+  left: 165px;
+  top: 253px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+  text-align: justify;
+  color: #ffffff;
+}
+
+.div_section {
+  position: absolute;
+  height: 32px;
+  left: 163px;
+  top: 357px;
+}
+
+.logo1 {
+  padding-right: 23px;
+}
+
+.logo2 {
+  padding-right: 23px;
+}
+
+.logo3 {
+  padding: 3px;
+}
+
+.section1_article2 {
+  display: inline-block;
+}
+
+.section1_photo {
+  position: absolute;
+  width: 445px;
+  left: 735px;
+  top: 94px;
+}
+
+.section_box2 {
+  width: 1440px;
+  height: 500px;
+  background: #ffffff;
+  padding-left: 0;
+}
+
+.section2_article1 {
+  display: inline-block;
+}
+
+h2 {
+  padding-top: 107px;
+  padding-left: 176px;
+  width: 445px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.p2 {
+  /* padding-top: 64px; */
+  padding-left: 176px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  width: 434px;
+}
+
+.form {
+  position: absolute;
+  width: 540px;
+  height: 305px;
+  left: 735px;
+  top: 617px;
+}
+
+.name {
+  box-sizing: border-box;
+  padding-left: 31px;
+  position: absolute;
+  width: 255px;
+  height: 60px;
+  left: 735px;
+  top: 617px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+}
+
+.last_name {
+  box-sizing: border-box;
+  padding-left: 31px;
+  position: absolute;
+  width: 255px;
+  height: 60px;
+  left: 1020px;
+  top: 617px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+}
+
+.number {
+  box-sizing: border-box;
+  padding-left: 31px;
+  position: absolute;
+  width: 540px;
+  height: 60px;
+  left: 735px;
+  top: 701px;
+
+  border: 1px solid #333333;
+  border-radius: 6px;
+}
+
+.select-service {
+  box-sizing: border-box;
+  padding-left: 31px;
+  position: absolute;
+  width: 540px;
+  height: 60px;
+  left: 735px;
+  top: 785px;
+
+  /* Gray 1 */
+
+  border: 1px solid #333333;
+  border-radius: 6px;
+}
+
+.submit_button {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  left: 735px;
+  top: 872px;
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+footer {
+  height: 435px;
+  background: #fafafa;
+}
+
+.section_box3 {
+  width: 1440px;
+  height: 500px;
+  background: #ffffff;
+}
+
+.footer_div1 {
+  position: absolute;
+  width: 259px;
+  height: 264px;
+  left: 161px;
+  top: 1130px;
+}
+
+.Address {
+  width: 65px;
+  height: 22px;
+  margin-bottom: 33px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* text-align: center; */
+  color: #101010;
+}
+
+.footer1 {
+  width: 140px;
+  height: 54px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #101010;
+}
+
+.p_footer1 {
+  position: absolute;
+  width: 155px;
+  height: 14px;
+  /* left: 161px;
+  top: 1380px; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 141px;
+  color: #101010;
+}
+
+.footer_div2 {
+  position: absolute;
+  width: 254px;
+  height: 164px;
+  left: 450px;
+  top: 1130px;
+}
+
+.Services {
+  /* position: absolute; */
+  width: 67px;
+  height: 22px;
+  /* left: 450px;
+  top: 1130px; */
+  margin-bottom: 33px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  /* position: absolute; */
+  width: 254px;
+  height: 114px;
+  /* left: 450px;
+  top: 1180px; */
+  font-size: 12px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* or 19px */
+  text-transform: capitalize;
+  color: #101010;
+}
+
+.footer_div3 {
+  position: absolute;
+  width: 122px;
+  height: 128px;
+  left: 734px;
+  top: 1130px;
+}
+
+.services_button {
+  display: block;
+  color: #101010;
+}
+
+.Get_in {
+  /* position: absolute; */
+  width: 101px;
+  height: 22px;
+  margin-bottom: 33px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+}
+
+.footer3_info {
+  /* position: absolute; */
+  width: 122px;
+  height: 14px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+
+  color: #101010;
+}
+
+.footer3_number {
+  /* position: absolute; */
+  /* width: 96px; */
+  height: 14px;
+  /* left: 734px;
+  top: 1210px; */
+  font-size: 12px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  color: #121212;
+}
+
+span {
+  /* position: absolute; */
+  width: 66px;
+  height: 14px;
+  /* left: 734px;
+  top: 1244px; */
+}
+
+.three_logos {
+  text-align: center;
+}
+
+.footer_div4 {
+  position: absolute;
+  /* width: 96px; */
+  /* height: 22px; */
+  left: 1022px;
+  top: 1130px;
+}
+
+.support {
+  position: absolute;
+  width: 96px;
+  height: 22px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+
+.footer_logo1 {
+  padding-left: 15px;
+}
+
+.footer_logo2 {
+  padding-left: 15px;
+}
+
+.footer_logo3 {
+  padding-left: 15px;
+}
+
+.card {
+  position: absolute;
+  left: 1028px;
+  top: 1185px;
+  margin-top: 15px;
+  background: url(secure-p-1.png);
+}
