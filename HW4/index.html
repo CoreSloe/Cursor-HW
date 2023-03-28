@@ -16,7 +16,7 @@
   <body>
     <main>
       <section class="section_box1">
-        <article class="section1_article1">
+        <div class="section1_div1">
           <h1>Stay focused on saving money</h1>
           <p class="p1">
             It is important to stay focused on saving money in any way you can.
@@ -40,32 +40,29 @@
               alt="simple-icons:windows"
             />
           </div>
-        </article>
-        <article class="section1_article2">
+        </div>
+        <div class="section1_div2">
           <img class="section1_photo" src="./Photo/Slider.png" alt="Photo" />
-        </article>
+        </div>
       </section>
       <section class="section_box2">
-        <article class="section2_article1">
+        <div class="section2_div1">
           <h2>Contact</h2>
           <p class="p2">
             Questions or concerns? Just fill out the form below and our support
             team will get back to you within 24 hours
           </p>
-        </article>
-        <article class="section2_article2">
-          <form>
-            <input class="name" type="text" placeholder="FirstName" />
+        </div>
+        <div class="section2_div2">
+          <form class="form_input">
+            <div class="input1and2">
+              <input class="name" type="text" placeholder="FirstName" />
 
-            <input class="last_name" type="text" placeholder="Last Name" />
+              <input class="last_name" type="text" placeholder="Last Name" />
+            </div>
+            <input class="number" type="text" placeholder="Phone Number" />
 
-            <br /><input
-              class="number"
-              type="text"
-              placeholder="Phone Number"
-            />
-
-            <br /><select class="select-service" name="service">
+            <select class="select-service" name="service">
               <option value="service-1">Service 1</option>
               <option value="service-2">Service 2</option>
               <option value="service-3">Service 3</option>
@@ -73,7 +70,7 @@
 
             <button class="submit_button" type="submit">SUBMIT NOW</button>
           </form>
-        </article>
+        </div>
       </section>
     </main>
     <footer>
@@ -82,10 +79,12 @@
           <h3 class="Address">Address</h3>
           <div class="footer1">
             <span>Pipang Ltd, Griva Digeni,</span>
-            <span> 81-83 Jacovides Tower, 1st Floor</span>
-            <span> 1090 Picosia USA</span>
+            <span>81-83 Jacovides Tower, 1st Floor</span>
+            <span>1090 Picosia USA</span>
           </div>
-          <span class="p_footer1">Copyright 2018 CloudBudget</span>
+          <div class="Copyright">
+            <span class="p_footer1">Copyright 2018 CloudBudget</span>
+          </div>
         </div>
         <div class="footer_div2">
           <h3 class="Services">Services</h3>
@@ -99,34 +98,36 @@
         </div>
         <div class="footer_div3">
           <h3 class="Get_in">Get in Touch</h3>
-          <p class="footer3_info">info@cloudbudget.com</p>
-          <p class="footer3_number">+1 844-721-7120</p>
-          <span>
-            <div class="three_logos">
-              <a class="footer_logo1" href="#">
-                <img class="fb" src="./Photo/Vector.svg" alt="Facebook icon" />
-              </a>
-              <a class="footer_logo2" href="#">
-                <img
-                  class="linkedin"
-                  src="./Photo/Group.svg"
-                  alt="Linkedin icon"
-                />
-              </a>
-              <a class="footer_logo3" href="#">
-                <img
-                  class="tw"
-                  src="./Photo/Vector (1).svg"
-                  alt="Twitter icon"
-                />
-              </a>
-            </div>
-          </span>
+          <div class="footer1">
+            <span>info@cloudbudget.com</span>
+            <span>+1 844-721-7120</span>
+          </div>
+          <div class="three_logos">
+            <a href="#">
+              <img class="fb" src="./Photo/Vector.svg" alt="Facebook icon" />
+            </a>
+            <a href="#">
+              <img
+                class="linkedin"
+                src="./Photo/Group.svg"
+                alt="Linkedin icon"
+              />
+            </a>
+            <a href="#"
+              ><img
+                class="tw"
+                src="./Photo/Vector (1).svg"
+                alt="Twitter icon"
+              />
+            </a>
+          </div>
         </div>
         <div class="footer_div4">
           <h3 class="Support">We Support</h3>
+          <span class="visa">
+            <img class="card" src="./Photo/secure-p-1 1.png" alt="Secure" />
+          </span>
         </div>
-        <img class="card" src="./Photo/secure-p-1 1.png" alt="Secure" />
       </section>
     </footer>
   </body>
