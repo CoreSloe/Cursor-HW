@@ -1,0 +1,86 @@
+body {
+  background-color: #292828;
+  font-family: "Roboto", sans-serif;
+}
+
+table {
+  width: 900px;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-collapse: collapse;
+  border-style: hidden;
+  box-shadow: 0 0 0 2px #818181;
+  color: rgb(158, 157, 157);
+}
+
+.pdf {
+  color: rgb(158, 157, 157);
+}
+
+.Date_white {
+  color: rgb(255, 255, 255);
+}
+
+td,
+th {
+  padding: 3px;
+  border-bottom: 1px solid rgb(158, 157, 157);
+  background-color: #343333;
+  padding: auto;
+  height: 35px;
+}
+
+th {
+  text-align: left;
+  width: 20%;
+}
+
+tr {
+  width: 50%;
+}
+
+.name_line {
+  color: rgb(255, 255, 255);
+  width: 40%;
+  padding-left: 10px;
+}
+
+.pdf {
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+}
+
+.search {
+  background-image: url(./image/loupe_78956.svg);
+  background-repeat: no-repeat;
+  background-position: 4% 40%;
+  background-size: 20px;
+  width: 150px;
+  padding: 9px;
+  display: inline-block;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(74, 74, 74);
+  margin-left: 32%;
+  padding-left: 35px;
+}
+
+.dots {
+  width: 1vw;
+  padding-left: 80%;
+}
+
+.img_icons {
+  width: 1vw;
+  margin-left: 5px;
+}
+
+.triangle {
+  width: 15px;
+  margin-left: 10px;
+}
+
+.icon_indeterminate {
+  width: 15px;
+}
