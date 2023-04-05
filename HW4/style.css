@@ -181,17 +181,8 @@ h2 {
 }
 
 footer {
-  padding: 85px 85px;
-}
-
-.section_3 {
-  background: #fafafa;
-}
-
-.container_footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  padding: 85px 0;
+  background-color: #fafafa;
 }
 
 .footer_div1 {
@@ -204,15 +195,17 @@ footer {
 }
 
 .Address {
-  width: 65px;
-  height: 22px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  text-align: center;
   color: #101010;
+}
+
+address {
+  text-decoration: none;
+  width: 200px;
+  font-size: 12px;
+  line-height: 150%;
+  font-style: normal;
 }
 
 .span1 {
@@ -226,7 +219,8 @@ footer {
   color: #101010;
 }
 
-.copyright {
+.Copyright {
+  margin-top: 141px;
   width: 155px;
   height: 14px;
   font-family: "Lato";
@@ -235,7 +229,6 @@ footer {
   font-size: 12px;
   line-height: 14px;
   color: #101010;
-  padding-bottom: 86px;
 }
 
 .footer_div2 {
@@ -268,6 +261,10 @@ footer {
   line-height: 160%;
   text-transform: capitalize;
   color: #101010;
+}
+
+.menu li:hover {
+  color: #ed4c5c;
 }
 
 li {
@@ -333,16 +330,21 @@ ul {
   color: #101010;
 }
 
-.footer_logo1 {
-  padding-left: 15px;
-}
-
 .footer_logo2 {
   padding-left: 15px;
 }
 
 .footer_logo3 {
   padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #101010;
+}
+
+a:hover {
+  color: #333333;
 }
 
 .card {
@@ -353,4 +355,9 @@ ul {
   width: 216px;
   margin-top: 15px;
   background: url(secure-p-1.png);
+}
+
+.section_3 > div {
+  display: flex;
+  justify-content: space-between;
 }
