@@ -131,6 +131,7 @@ h2 {
   display: inline;
   border: 1px solid #333333;
   border-radius: 6px;
+  outline: none;
 }
 
 .last_name {
@@ -142,6 +143,7 @@ h2 {
   height: 60px;
   border: 1px solid #333333;
   border-radius: 6px;
+  outline: none;
 }
 
 .number {
@@ -152,6 +154,7 @@ h2 {
   height: 60px;
   border: 1px solid #333333;
   border-radius: 6px;
+  outline: none;
 }
 
 .select-service {
@@ -162,6 +165,7 @@ h2 {
   height: 60px;
   border: 1px solid #333333;
   border-radius: 6px;
+  outline: none;
 }
 
 .submit_button {
@@ -177,6 +181,7 @@ h2 {
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
+  cursor: pointer;
   color: #ffffff;
 }
 
