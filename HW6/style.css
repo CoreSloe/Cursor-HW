@@ -41,12 +41,14 @@ li {
   padding-right: 40px;
 }
 
-.about {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 160%;
+li a {
+  text-decoration: none;
+  cursor: pointer;
   color: #212353;
+}
+
+li a:hover {
+  color: #9c69e2;
 }
 
 .header_button {
@@ -63,6 +65,12 @@ li {
   letter-spacing: 0.005em;
   color: #212353;
   border: none;
+  cursor: pointer;
+}
+
+.header_button:hover {
+  background-color: wheat;
+  color: #f063b8;
 }
 
 .section_one {
@@ -112,6 +120,12 @@ h1 {
   line-height: 160%;
   text-align: center;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.button_section1:hover {
+  background-color: wheat;
+  color: #f063b8;
 }
 
 .first_image {
@@ -233,6 +247,7 @@ h1 {
   background-color: #ffffff;
   white-space: nowrap;
   color: #212353;
+  cursor: pointer;
 }
 
 .section_four {
@@ -317,7 +332,7 @@ h1 {
   align-items: center;
 }
 
-.img_57 {
+.left {
   margin-right: 20px;
 }
 
@@ -367,6 +382,12 @@ footer {
   line-height: 160%;
   border: none;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.pink_button:hover {
+  background: #000000;
+  color: #f063b8;
 }
 
 .white_button {
@@ -380,6 +401,12 @@ footer {
   line-height: 160%;
   border: none;
   color: #212353;
+  cursor: pointer;
+}
+
+.white_button:hover {
+  background: #f063b8;
+  color: #ffffff;
 }
 
 .central {
@@ -394,6 +421,11 @@ footer {
 
 .box_column span {
   transition: 0.5s;
+}
+
+.box_column > span:hover {
+  cursor: pointer;
+  color: #f063b8;
 }
 
 .Data_header {
@@ -422,6 +454,16 @@ footer {
   line-height: 2.5rem;
 }
 
+.box_column a {
+  cursor: pointer;
+  color: #212353;
+  text-decoration: none;
+}
+
+.box_column a:hover {
+  color: #f063b8;
+}
+
 .Warehouse {
   font-weight: 700;
   line-height: 1.8rem;
@@ -435,6 +477,7 @@ footer {
   line-height: 160%;
   margin-bottom: 30px;
   color: #212353;
+  cursor: pointer;
 }
 
 .help {
@@ -444,6 +487,7 @@ footer {
   line-height: 160%;
   margin-bottom: 30px;
   color: #212353;
+  cursor: pointer;
 }
 
 .media {
@@ -453,15 +497,18 @@ footer {
   line-height: 160%;
   margin-bottom: 30px;
   color: #212353;
+  cursor: pointer;
 }
 
 .icons {
   display: flex;
+  gap: 15px;
 }
 
 .icons > img:hover {
   background: #9c69e2;
   transform: scale(1.1);
+  border-radius: 50%;
 }
 
 .bottom {
