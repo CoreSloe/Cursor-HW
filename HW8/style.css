@@ -25,6 +25,7 @@
 }
 
 .green-button {
+  position: relative;
   background-color: rgb(42, 231, 42);
   color: white;
   border-radius: 25px;
@@ -64,9 +65,9 @@
 }
 
 .green-button::before {
-  left: 600px;
+  left: 250px;
 }
 
 .green-button::after {
-  right: 600px;
+  right: 250px;
 }
