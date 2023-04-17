@@ -1,0 +1,238 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap_lightsaber {
+  background: url(./images/Zvezdnye-voĭny.-Zvezda-Smerti.jpg);
+  padding: 40px;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  box-shadow: 12px 8px 8px rgb(52, 52, 52);
+}
+
+.saber {
+  width: 350px;
+  height: 20px;
+  background-color: rgb(166, 191, 183);
+  border-radius: 25px;
+  margin-bottom: 45px;
+  border: 2px solid rgba(247, 239, 239, 0.452);
+}
+
+@keyframes lightsaber_one {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  30% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}
+
+@keyframes lightsaber_two {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  30% {
+    transform: translateY(0) rotate(0);
+  }
+  60% {
+    transform: translateY(38px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(38px) rotate(45deg);
+  }
+}
+
+@keyframes lightsaber_three {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  30% {
+    transform: translateY(0) rotate(0);
+  }
+  60% {
+    transform: translateY(-38px) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(-38px) rotate(-45deg);
+  }
+}
+
+.lightsaber_one {
+  box-shadow: 0 0 15px 10px #39ff14;
+  animation: lightsaber_one 2s ease infinite alternate;
+  border: white 1px solid;
+}
+.lightsaber_two {
+  box-shadow: 0 0 15px 10px #bc13fe;
+  /* display: flex; */
+  animation: lightsaber_two 2s ease infinite alternate;
+  border: white 1px solid;
+}
+.lightsaber_three {
+  box-shadow: 0 0 15px 10px #ff073a;
+  animation: lightsaber_three 2s ease infinite alternate;
+  border: white 1px solid;
+}
+
+.handle {
+  height: 100%;
+  width: 55px;
+  margin-left: 15px;
+  background: #131313;
+}
+
+.Newton {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  /* background: linear-gradient(to right, #1E90FF, #2E8B57); */
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.ball1 {
+  position: relative;
+  animation: left_ball 1s ease-in infinite alternate;
+}
+
+.ball7 {
+  position: relative;
+  animation: right_ball 1s ease-in infinite alternate-reverse;
+}
+
+@keyframes left_ball {
+  0% {
+    transform: translate(-100px, -55px) rotate(20deg);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes right_ball {
+  0% {
+    transform: translate(100px, -55px) rotate(-20deg);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.ball1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 40px;
+  top: 100px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+  filter: blur(10px);
+  animation: ball_anim1 1s ease infinite alternate;
+}
+
+.ball2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 40px;
+  bottom: 110px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.ball3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 40px;
+  bottom: 110px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.ball4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 40px;
+  bottom: 110px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.ball5::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 40px;
+  bottom: 110px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.ball6::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 40px;
+  bottom: 110px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.ball7::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 40px;
+  top: 100px;
+  background: #000;
+  opacity: 0.4;
+  border-radius: 50%;
+  filter: blur(10px);
+  animation: ball_anim2 1s ease-in infinite alternate-reverse;
+}
