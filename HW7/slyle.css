@@ -45,13 +45,16 @@ header {
 .links_header {
   display: flex;
   gap: 40px;
-  cursor: pointer;
 }
 
 .icon_buttons {
   display: flex;
   gap: 40px;
-  cursor: pointer;
+}
+
+.header-line {
+  border-bottom: 1px solid #aaa9a9;
+  padding-top: 30px;
 }
 
 .wrapper_two {
@@ -91,11 +94,9 @@ header {
   width: 40%;
   height: 3px;
   bottom: -8px;
-  left: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
   background-color: #eda3b5;
-  /* transform-origin: bottom right;
-  transition: transform 0.55s ease-out;
-  transform: scaleX(0); */
   border-radius: 50px;
 }
 
@@ -103,7 +104,6 @@ header {
   display: flex;
   gap: 80px;
   margin-bottom: 19px;
-  cursor: pointer;
 }
 
 .Hero {
@@ -221,13 +221,13 @@ header {
 .btn_card_one {
   border: none;
   cursor: pointer;
-  width: 93px;
-  height: 30px;
-  opacity: 0.7;
-  background-color: #c0bdbd;
+  margin-top: 10px;
+  padding: 0px 22px;
+  width: fit-content;
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 8px;
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -359,7 +359,7 @@ header {
   transition: 1s;
 }
 
-.img_cards:hover {
+.img_cards img:hover {
   transform: scale(1.2);
 }
 
@@ -443,13 +443,11 @@ header {
   display: flex;
   top: 16px;
   right: 16px;
-  /* border-radius: 16px 16px 0px 0px; */
 }
 
 .like {
   cursor: pointer;
   position: absolute;
-
   border: none;
   background: none;
 }
@@ -684,7 +682,6 @@ ul li {
 }
 
 .links_footer {
-  /* display: flex; */
   cursor: pointer;
   gap: 40px;
 }
