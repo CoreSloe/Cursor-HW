@@ -167,7 +167,7 @@ hr {
 
 .one_btn_cards img,
 .two_btn_cards img {
-  vertical-align: auto;
+  vertical-align: inherit;
   margin-right: 5px;
   color: #8e8e8e;
 }
@@ -176,12 +176,27 @@ hr {
   flex-wrap: wrap;
 }
 
-/* .posts {
+.posts img {
   margin-bottom: 25px;
-} */
+}
 
 .mt-3 {
   margin-top: 5px;
+}
+
+.top_icons {
+  display: flex;
+}
+
+.messages {
+  position: relative;
+}
+
+.five {
+  position: absolute;
+  width: 15px;
+  top: 0px;
+  left: 30px;
 }
 
 @media (max-width: 768px) {
@@ -220,8 +235,15 @@ hr {
     display: none;
   }
 
-  /* .posts {
+  .posts {
     display: flex;
     gap: 25px;
-  } */
+  }
+}
+
+@media (max-width: 575px) {
+  .five {
+    top: -5px;
+    left: 55px;
+  }
 }
