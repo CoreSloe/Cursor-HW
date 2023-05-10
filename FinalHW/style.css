@@ -45,7 +45,7 @@ li {
 
 .adventure {
   height: 100vh;
-  background: linear-gradient(0deg, rgb(10, 30, 39) 10%, rgba(10, 30, 39, 0)), url(../images/mainBackground.png) 80% 80%/cover no-repeat;
+  background: linear-gradient(0deg, rgb(10, 30, 39) 10%, rgba(10, 30, 39, 0)), url(./images/mainBackground.png) 80% 80%/cover no-repeat;
 }
 
 .container {
