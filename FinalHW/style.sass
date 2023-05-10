@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Playfair+Display&family=Poppins:wght@300;400;600;700&display=swap')
+// font-family: 'Major Mono Display', monospace
+// font-family: 'Playfair Display', serif
+// font-family: 'Poppins', sans-serif
+
+$top-color: #ffffff
+$yellow: #D3BA74
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background: #0A1E27
+
+a
+  text-decoration: none 
+li
+  list-style: none  
+
+.wrapper  
+  margin: 0 10px  
+
+.btn_style  
+  padding: 10px 0
+  max-width: 100px
+  width: 100%
+  border: 1px solid $top-color
+  border-radius: 4px
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 400
+  font-size: 12px
+  line-height: 18px
+  text-transform: uppercase
+  cursor: pointer
+  background: rgba(0,0,0,0)
+  color: $top-color  
+  &:hover
+    background: $top-color
+    color: #06151c
+    font-weight: 700
+
+     //  section adventure 
+
+.adventure
+  height: 100vh
+  background: linear-gradient(0deg, rgb(10, 30, 39) 10%, rgba(10, 30, 39, 0)),url(../images/mainBackground.png) 80% 80% / cover no-repeat
+
+.container
+  max-width: 1272px
+  width: 100%
+  margin: 0 auto 
+
+.adv_name
+  margin-top: 25px
+  display: inline-block
+  font-family: 'Major Mono Display'
+  font-style: normal
+  font-weight: 400
+  font-size: 32px
+  line-height: 34px
+  color: $top-color
+    
+.adv_tittle
+  margin: 190px 0 10px 0
+  font-family:'Playfair Display'
+  font-style: normal
+  font-weight: 400
+  font-size: 100px
+  line-height: 100px
+  color: $top-color
+    
+.adv_subtittle 
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 700
+  font-size: 20px
+  line-height: 22px
+  letter-spacing: 0.24em
+  color: $yellow
+    
+.adv_text
+  max-width: 513px
+  margin: 45px 0
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 300
+  font-size: 16px
+  line-height: 24px
+  color: rgba(255, 255, 255, 0.8)
+  
+
+// section explore
+
+.exp_text
+  position: relative
+  margin-bottom: 64px
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  gap: 20px   
+
+.exp_number
+  position: absolute
+  left: -5px
+  top: 0
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 600
+  font-size: 180px
+  line-height: 150%
+  color: rgba(255, 255, 255, 0.13)
+
+.exp_subtittle
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 700
+  font-size: 14px
+  line-height: 22px
+  letter-spacing: 0.24em
+  color: $yellow
+  &::before
+    content: ""
+    position: relative
+    display: inline-block
+    top: -5px
+    width: 45px
+    height: 2px
+    margin: 0px 5px 0px 0
+    background: $yellow
+    
+.exp_tittle
+  margin: 12px 0 20px 0
+  max-width: 564px
+  font-family: 'Playfair Display'
+  font-style: normal
+  font-weight: 400
+  font-size: 70px
+  line-height: 70px
+  color: $top-color
+    
+.exp_texttittle
+  max-width: 528px
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 300
+  font-size: 16px
+  line-height: 24px
+  color: rgba(255, 255, 255, 0.8)
+
+.exp_right_img
+  img
+    width: 100%   
+
+.exp_picture
+  display: flex
+  justify-content: space-between
+  gap: 20px 
+
+// section don`t miss 
+
+.dontmiss
+  margin:150px 0
+
+.dontmiss_wrap
+  position: relative
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.dontmiss_number
+  position: absolute
+  left: 550px
+  top: 0
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 600
+  font-size: 180px
+  line-height: 150%
+  color: rgba(255, 255, 255, 0.13)
+
+.dontmiss_subtittle
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 700
+  font-size: 14px
+  line-height: 22px
+  letter-spacing: 0.24em
+  color: $yellow 
+  &::before
+    content: ""
+    position: relative
+    display: inline-block
+    top: -5px
+    width: 45px
+    height: 2px
+    margin: 0px 5px 0px 0
+    background: $yellow
+        
+.dontmiss_tittle
+  margin: 12px 0 20px 0
+  max-width: 356px
+  margin: 12px 0 20px 0
+  font-family: 'Playfair Display'
+  font-style: normal
+  font-weight: 400
+  font-size: 70px
+  line-height: 70px
+  color: $top-color 
+
+.dontmiss_texttittle
+  max-width: 511px
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 300
+  font-size: 16px
+  line-height: 24px
+  color: rgba(255, 255, 255, 0.8) 
+
+
+
+// section window
+
+.window
+  margin: 150px 0  
+
+.window_text
+  position: relative
+  margin-bottom: 64px
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  gap: 20px   
+
+.window_number
+  position: absolute
+  left: -5px
+  top: 0
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 600
+  font-size: 180px
+  line-height: 150%
+  color: rgba(255, 255, 255, 0.13)
+
+.window_subtittle
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 700
+  font-size: 14px
+  line-height: 22px
+  letter-spacing: 0.24em
+  color: $yellow
+  &::before
+    content: ""
+    position: relative
+    display: inline-block
+    top: -5px
+    width: 45px
+    height: 2px
+    margin: 0px 5px 0px 20px
+    background: $yellow
+    
+.window_tittle
+  margin: 20px 0 30px 0
+  max-width: 564px
+  font-family: 'Playfair Display'
+  font-style: normal
+  font-weight: 400
+  font-size: 70px
+  line-height: 70px
+  color: $top-color
+    
+.window_texttittle
+  max-width: 528px
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 300
+  font-size: 16px
+  line-height: 24px
+  color: rgba(255, 255, 255, 0.8)
+
+.window_right_img
+  img
+    width: 100%   
+
+.window_picture
+  display: flex
+  justify-content: space-between
+  gap: 20px    
+
+// section numbers
+
+.numbers
+  margin-bottom: 130px  
+
+.numbers_wrap
+  max-width: 1007px
+  padding: 0 10px
+  display: flex
+  justify-content: space-between
+  margin: 0 auto
+
+.box_element
+  text-align: center
+
+.p_element
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 600
+  font-size: 100px
+  line-height: 110px
+  color: rgba(255, 255, 255, 0.13)
+
+.our_text
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 700
+  font-size: 14px
+  line-height: 22px
+  letter-spacing: 0.24em
+  color: $yellow
+
+
+  //section explore_more
+ 
+.exp_more_wrap
+  padding: 80px 0
+  position: relative 
+  display: flex
+  justify-content: space-between
+  align-items: center
+  gap: 20px 
+  &::before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 1px
+    background: rgba(255, 255, 255, 0.2)
+    top: 0
+  &::after
+    content: ''
+    position: absolute
+    width: 100%
+    height: 1px
+    background: rgba(255, 255, 255, 0.2)
+    bottom: 0  
+    
+.exp_more_tittle
+  margin: 12px 0 20px 0
+  font-family:'Playfair Display'
+  font-style: normal
+  font-weight: 400
+  font-size: 70px
+  line-height: 70px
+  color: $top-color
+    
+.exp_more_texttittle
+  max-width: 513px
+  margin: 45px 0
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 300
+  font-size: 16px
+  line-height: 24px
+  color: rgba(255, 255, 255, 0.8)  
+
+  //footer
+
+.footer
+  padding: 40px 0
+
+.footer_wrap
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.footer_logo
+  font-family: 'Major Mono Display'
+  font-style: normal
+  font-weight: 400
+  font-size: 32px
+  line-height: 34px
+  color: $top-color 
+
+.footer_links
+  ul
+    display: flex
+    align-items: center
+    justify-content: space-between
+    max-width: 228px
+    width: 100%  
+    gap: 45px
+    li
+      &:hover
+        transform: scale(1.1)
+      
+
+//  section adventure       
+
+@media only screen and (max-width: 768px)
+
+  .adv_wrap
+    text-align: center
+
+  .adv_tittle  
+    font-size: 60px
+        
+// section explore
+
+@media only screen and (max-width: 768px)
+  
+  .exp_text
+    flex-wrap: wrap
+    justify-content: center
+
+  .exp_tittle
+    font-size: 60px
+    padding-top: 150px
+
+  .exp_picture
+    flex-wrap: wrap
+    justify-content: center
+
+  .exp_right_img
+    img
+      padding-top: 30px  
+
+        //section don`t miss 
+
+@media only screen and (max-width: 768px)
+
+  .dontmiss_wrap
+    flex-wrap: wrap
+    justify-content: center
+
+  .dontmiss_image
+    img
+      margin-bottom: 20px  
+      max-width:100% 
+
+  .dontmiss_subtittle
+    position: relative
+    margin-bottom: 150px
+
+  .dontmiss_number
+    left: 0
+    top: 530px  
+
+@media only screen and (max-width: 450px)  
+   .dontmiss_number
+    left: 0
+    top: 320px    
+
+// section window
+
+@media only screen and (max-width: 768px)
+
+  .window_text
+    flex-wrap: wrap
+    justify-content: center
+
+  .window_tittle
+    font-size: 60px
+    padding-top: 13vh
+
+  .window_picture
+    flex-wrap: wrap
+    justify-content: center
+
+// section numbers
+
+@media only screen and (max-width: 768px)
+
+  .numbers_wrap
+    flex-wrap: wrap
+    align-content: center
+    justify-content: space-evenly 
+
+
+//section explore_more
+@media only screen and (max-width: 768px)  
+
+  .exp_more_wrap
+    flex-wrap: wrap
+    justify-content: center  
+
+//footer
+
+@media only screen and (max-width: 768px)
+
+  .footer_wrap
+    flex-wrap: wrap
+    justify-content: center
+    gap: 35px  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
